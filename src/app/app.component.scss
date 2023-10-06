@@ -1,0 +1,12 @@
+.card{
+    width: 220px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 1rem;
+}
+.fa-star{
+    color: gold;
+    &.half-star{
+        clip-path: inset(0 50% 0 0);
+    }
+  }
